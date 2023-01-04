@@ -268,6 +268,7 @@ export function createSymbolId(name: string, options: ViteSvgIconsPlugin) {
     fName = fileName
   }
   id = id.replace(/\[name\]/g, fName)
+  if (id.startsWith('-')) id = id.slice(1);
   return id.replace(path.extname(id), '')
 }
 
