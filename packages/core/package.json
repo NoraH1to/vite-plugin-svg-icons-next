@@ -1,5 +1,5 @@
 {
-  "name": "vite-plugin-svg-icons",
+  "name": "vite-plugin-svg-icons-next",
   "version": "2.0.1",
   "description": "Vite Plugin for fast creating SVG sprites.",
   "main": "dist/index.cjs",
@@ -34,18 +34,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/anncwb/vite-plugin-svg-icons",
+    "url": "https://github.com/norah1to/vite-plugin-svg-icons-next",
     "directory": "packages/core"
   },
   "bugs": {
-    "url": "https://github.com/anncwb/vite-plugin-svg-i cons/issues"
+    "url": "https://github.com/norah1to/vite-plugin-svg-icons-next/issues"
   },
-  "homepage": "https://github.com/anncwb/vite-plugin-svg-icons/tree/master/#readme",
+  "homepage": "https://github.com/norah1to/vite-plugin-svg-icons-next/tree/main/#readme",
   "dependencies": {
     "@types/svgo": "^2.6.1",
     "cors": "^2.8.5",
     "debug": "^4.3.3",
     "etag": "^1.8.1",
+    "fast-glob": "^3.2.11",
     "fs-extra": "^10.0.0",
     "pathe": "^0.2.0",
     "svg-baker": "1.7.0",
