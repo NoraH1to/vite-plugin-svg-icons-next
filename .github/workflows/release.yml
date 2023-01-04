@@ -23,8 +23,8 @@ jobs:
         id: release_tag
         uses: yyx990803/release-tag@master
         env:
-          GITHUB_TOKEN: ${{ secrets.OPER_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ github.ref }}
           body: |
-            Please refer to [CHANGELOG.md](https://github.com/anncwb/vite-plugin-svg-icons/blob/main/CHANGELOG.md) for details.
+            Please refer to [CHANGELOG.md](https://github.com/norah1to/vite-plugin-svg-icons-next/blob/main/CHANGELOG.md) for details.
