@@ -1,4 +1,4 @@
-# vite-plugin-svg-icons
+# vite-plugin-svg-icons-next
 
 **中文** | [English](./README.md)
 
@@ -16,11 +16,11 @@
 **vite version:** >=2.0.0
 
 ```bash
-yarn add vite-plugin-svg-icons -D
+yarn add vite-plugin-svg-icons-next -D
 # or
-npm i vite-plugin-svg-icons -D
+npm i vite-plugin-svg-icons-next -D
 # or
-pnpm install vite-plugin-svg-icons -D
+pnpm install vite-plugin-svg-icons-next -D
 ```
 
 ## 使用
@@ -28,7 +28,7 @@ pnpm install vite-plugin-svg-icons -D
 - vite.config.ts 中的配置插件
 
 ```ts
-import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'
+import { createSvgIconsPlugin } from 'vite-plugin-svg-icons-next'
 import path from 'path'
 
 export default () => {
@@ -212,7 +212,7 @@ svg 文件名
 // tsconfig.json
 {
   "compilerOptions": {
-    "types": ["vite-plugin-svg-icons/client"]
+    "types": ["vite-plugin-svg-icons-next/client"]
   }
 }
 ```
